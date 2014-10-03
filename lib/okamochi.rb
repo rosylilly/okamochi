@@ -1,5 +1,2 @@
-require "okamochi/version"
-
-module Okamochi
-  # Your code goes here...
-end
+require 'okamochi/version'
+require 'okamochi/cli'

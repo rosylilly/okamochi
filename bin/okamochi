@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
 
-require 'okamochi'
+require 'okamochi/cli'
+Okamochi::CLI.start(ARGV)
