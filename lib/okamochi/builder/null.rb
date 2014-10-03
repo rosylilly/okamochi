@@ -1,10 +1,11 @@
 require 'okamochi/builder'
 
 class Okamochi::Builder::Null
-  def initialize(*)
+  def initialize(config)
+    @config = config
   end
 
-  def prepare(*)
+  def prepare
   end
 
   def run(*)
