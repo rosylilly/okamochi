@@ -25,4 +25,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'thor', '~> 0.19.1'
   spec.add_dependency 'semantic_versioning', '~> 0.2.0'
+  spec.add_dependency 'hashie', '~> 3.3.1'
 end

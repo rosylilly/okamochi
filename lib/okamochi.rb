@@ -1,6 +1,8 @@
 require 'okamochi/version'
 require 'okamochi/cli'
+require 'okamochi/config'
 require 'okamochi/builder'
+require 'okamochi/provisioner'
 
 module Okamochi
   def self.resolve_const(name)
