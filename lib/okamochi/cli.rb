@@ -8,7 +8,7 @@ class Okamochi::CLI < Thor
     super
   end
 
-  desc "version", "Print version"
+  desc 'version', 'Print version'
   def version
     puts "okamochi v#{Okamochi::VERSION}"
   end
